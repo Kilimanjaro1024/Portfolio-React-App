@@ -1,8 +1,9 @@
 import React from "react"
+import "../../styling/About.scss"
 
 const About = (props) =>{
     return (
-        <div>
+        <div className="about">
             <h1>About Me</h1>
         </div>
     )
