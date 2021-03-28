@@ -11,7 +11,6 @@ const Page = (props) =>{
     return (
         <div class="body">
             <Header/>
-            <Nav/>
             <Content/>
             <Footer/>
         </div>
