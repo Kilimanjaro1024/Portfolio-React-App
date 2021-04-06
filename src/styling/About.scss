@@ -1,6 +1,27 @@
 div .about{
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    div {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw;
+        div{
+            
+            height: 300px;
+            width:300px;
+            background-image: url("https://cdn.discordapp.com/attachments/771150639732359212/829110653704601640/unknown.png");
+            background-position: top;
+        }
+        img {
+            height: 30%;
+        }
+        p {
+        
+            border: 2px solid black ;
+        }
+    }
 }
