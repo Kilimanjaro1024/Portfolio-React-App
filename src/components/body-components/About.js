@@ -3,7 +3,7 @@ import "../../styling/About.scss"
 
 const About = (props) =>{
     return (
-        <div className="about">
+        <div className="about" id="about">
             <h1>About Me</h1>
             <div>               
                 <img src="https://cdn.discordapp.com/attachments/771150639732359212/829110653704601640/unknown.png" alt="none"/>

@@ -5,7 +5,7 @@ import { DevIcons, DiCodepen, DiGit, DiGithub, DiHeroku, DiJavascript, DiJqueryL
 
 const Skills = (props) =>{
     return (
-        <div>
+        <div id="skills">
             <h1>Skills</h1>
             <div>
                 <FaHtml5 />

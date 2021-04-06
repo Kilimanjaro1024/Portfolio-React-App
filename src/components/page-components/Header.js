@@ -13,16 +13,16 @@ const Header = (props) =>{
             <Navbar.Collapse id="basic-navbar-nav">
                 <ul>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about" data-rb-event-key="#about">About</a>
                     </li>
                     <li>
-                        <a href="#about">Skills</a>    
+                        <a href="#skills" data-rb-event-key="#skills">Skills</a>    
                     </li>
                     <li>
-                        <a href="#about">Projects</a>                       
+                        <a href="#projects" data-rb-event-key="#projects">Projects</a>                       
                     </li>
                     <li>
-                        <a href="#about">Contact</a>                        
+                        <a href="#contact" data-rb-event-key="#contact">Contact</a>                        
                     </li>
                 </ul>
             </Navbar.Collapse>
