@@ -6,7 +6,7 @@ const Projects = (props) =>{
 
     const loaded = () => {
         return (
-            <div>
+            <div id="projects">
                 <h1>Projects</h1>
                 {props.projects.data.map((project, index) => {
                     return (

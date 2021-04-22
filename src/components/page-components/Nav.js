@@ -14,9 +14,9 @@ const Nav = (props) =>{
                 <li>
                     <h5>Projects</h5>
                 </li>
-                <li>
+                {/* <li>
                     <h5>Contact</h5>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )

@@ -12,7 +12,7 @@ const Content = (props) =>{
             <About/>
             <Skills/>
             <Projects projects={props.projects} />
-            <Contact/>
+            {/* <Contact/> */}
         </div>
     )
 }
