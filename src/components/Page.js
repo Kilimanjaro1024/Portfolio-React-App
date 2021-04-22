@@ -8,10 +8,11 @@ import Footer from "./page-components/Footer"
 
 
 const Page = (props) =>{
+    console.log(props.projects)
     return (
         <div class="body">
             <Header/>
-            <Content/>
+            <Content projects={props.projects}/>
             <Footer/>
         </div>
     )

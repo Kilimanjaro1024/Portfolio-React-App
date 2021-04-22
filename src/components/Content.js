@@ -6,11 +6,12 @@ import Projects from "./body-components/Projects"
 import Contact from "./body-components/Contact"
 
 const Content = (props) =>{
+    console.log(props.projects)
     return (
         <div class="content">
             <About/>
             <Skills/>
-            <Projects/>
+            <Projects projects={props.projects} />
             <Contact/>
         </div>
     )
