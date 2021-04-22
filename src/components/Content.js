@@ -1,4 +1,5 @@
 import React from "react"
+import "../styling/Content.scss"
 
 import About from "./body-components/About"
 import Skills from "./body-components/Skills"
