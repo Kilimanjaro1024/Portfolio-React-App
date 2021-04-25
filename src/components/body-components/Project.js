@@ -6,7 +6,6 @@ const Project = (props) =>{
     const [show, setShow] = useState(false)
     return (
         <div className="project">
-            <p>{props.name}</p>
             <img src={props.img} alt="image" onClick={() => setShow(true)} />
             
             {/* <button onClick={() => setShow(true) }>Show Modal</button> */}

@@ -11,7 +11,7 @@ const Page = (props) =>{
     console.log(props.projects)
     return (
         <div class="body">
-            <Header/>
+            {/* <Header/> */}
             <Content projects={props.projects}/>
             <Footer/>
         </div>

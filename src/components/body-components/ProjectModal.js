@@ -14,8 +14,11 @@ const Modal = (props) =>  {
                         <h4 className="modal-title">{props.name}</h4>
                     </div>
                     <div className="modal-body">
-                    <p>{props.description}</p>
-            <a href={props.github}>github</a>
+                        <p>{props.description}</p>
+                        <div className="project-links">
+                            <a href={props.github}>Github Repo</a>
+                            <a href={props.live}>Live Site</a>
+                        </div>
                     </div>
                     <div className="modal-footer">
                         <button onClick={props.onClose}>Close</button>

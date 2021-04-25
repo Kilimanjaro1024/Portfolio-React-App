@@ -23,5 +23,12 @@
         padding: 10px;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
+        .project-links{
+            display: flex;
+            justify-content: center;
+            a{
+                margin: 0 20px;
+            }
+        }
     }
 }
