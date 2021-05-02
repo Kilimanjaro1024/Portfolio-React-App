@@ -1,5 +1,6 @@
 import React from "react"
 import Project from "./Project"
+import "../../styling/Projects.scss"
 
 const Projects = (props) =>{
     console.log(props.projects.data)
@@ -8,18 +9,20 @@ const Projects = (props) =>{
         return (
             <div id="projects">
                 <h1>Projects</h1>
-                {props.projects.data.map((project, index) => {
-                    return (
-                        
-                        <Project 
-                            name={project.name} 
-                            description={project.description}
-                            github={project.github}
-                            img={project.img}
-                            live={project.live}
-                        /> 
-                    )
-                })}
+                <div className="projects">
+                    {props.projects.data.map((project, index) => {
+                        return (
+                            
+                            <Project 
+                                name={project.name} 
+                                description={project.description}
+                                github={project.github}
+                                img={project.img}
+                                live={project.live}
+                            /> 
+                        )
+                    })}
+                </div>
             </div>
         )
     }

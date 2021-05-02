@@ -5,29 +5,31 @@ import { DevIcons, DiCodepen, DiGit, DiGithub, DiHeroku, DiJavascript, DiJqueryL
 
 const Skills = (props) =>{
     return (
-        <div id="skills">
-            <h1>Skills</h1>
-            <div>
-                <FaHtml5 />
-                <FaUnity/>
-                <FaCss3/>
-                <DiCodepen/>
-                <DiJavascript/>
-                <DiGit/>
-                <DiGithub/>
-                <DiHeroku/>
-                <DiLinux/>
-                <DiJqueryLogo/>
-                <DiPostgresql/>
-                <DiNodejs/>
-                <DiMongodb/>
-                <DiMysql/>
-                <DiReact/>
-                <DiSass/>
-                <DiUbuntu/>
-                <DiRuby/>
-                <DiTrello/>
+        <div id="skills" className="skills">
+            <div className="container">
+                <h1>Skills</h1>
+                <div className="icons">
+                    <FaHtml5 />
+                    <FaUnity/>
+                    <FaCss3/>
+                    <DiCodepen/>
+                    <DiJavascript/>
+                    <DiGit/>
+                    <DiGithub/>
+                    <DiHeroku/>
+                    <DiLinux/>
+                    <DiJqueryLogo/>
+                    <DiPostgresql/>
+                    <DiNodejs/>
+                    <DiMongodb/>
+                    <DiMysql/>
+                    <DiReact/>
+                    <DiSass/>
+                    <DiUbuntu/>
+                    <DiRuby/>
+                    <DiTrello/>
 
+                </div>
             </div>
         </div>
     )
