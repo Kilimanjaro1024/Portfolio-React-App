@@ -2,11 +2,21 @@ import React from "react";
 import "../../styling/ProjectModal.scss"
 
 const Modal = (props) =>  {
+    const disableScroll = () => {
+        document.body.classList.add("stop-sccrolling")
+    }
+
+    const enableScroll = () => {
+        document.body.classList.remove("stop-scrolling")
+    }
+
     if (!props.show) {
         console.log(props.show)
+        enableScroll()
         return null
     }
     else{
+        disableScroll()
         return(
             <div className="project-modal" onClick={props.onClose}>
                 <div className="modal-content" onClick={e => e.stopPropagation()}>

@@ -1,7 +1,7 @@
 
 
 .about{
-    height: 100vh;
+    height: 87vh;
     min-height: 523px;
     display: flex;
     justify-content: center;
@@ -19,9 +19,9 @@
         align-items: center;
         max-width: 100vw;
         margin: 10px;
-        overflow: hidden;
+        z-index: 98;
         h1{
-            margin: 10px 0;
+            margin: 10px 0 ;
         }
         div{
             
@@ -32,13 +32,23 @@
             overflow: hidden;
         }
         img {
-            height: 30%;
+            height: 20%;
+            border-radius: 50%;
+        }
+        p{
+            padding: 5px;
+            border: 3px solid #274C77;
+            border-radius: .25rem;
+            margin: 5px 7px;
+            max-width: 500px;
+        }
+        h2{
+            margin-top: -10px;
         }
     }
-    .animation-area{
-        // position: relative;
+    
     .box-area{
-        // position: relative;
+        
         top: 0;
         left: 0;
         width: 100%;
@@ -50,7 +60,7 @@
             list-style: none;
             width: 25px;
             height: 25px;
-            background-color: green;
+            background-color: rgba(255,255,255, 0.4);
             animation:  animate 20s linear infinite;
             bottom: -200px;
             overflow: hidden;
@@ -102,7 +112,7 @@
             
         }
     }
-}
+
 }
 
 @keyframes animate{
@@ -114,5 +124,36 @@
     100%{
         transform: translateY(-800px) rotate(360deg);
         opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .about{
+        min-height: 365px;
+    }
+}
+
+@media only screen and (max-height: 470px){
+    .about{
+        min-height: 420px;
+    }
+}
+
+@media only screen and (min-width: 991px){
+    .about{
+        padding: 0 25%;
+        .about-content{
+            img{
+                padding: 20px;
+                height: 35%;
+                
+            }
+            p{
+                padding: 10px;
+                border: 3px solid #274C77;
+                border-radius: .25rem;
+                
+            }
+        }
     }
 }

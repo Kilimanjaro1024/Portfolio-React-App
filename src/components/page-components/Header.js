@@ -8,10 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Header = (props) =>{
     return (
         <Navbar id="header" expand="lg">
-            <h1>Stuff</h1>
+            <h1>CM</h1>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <ul>
+            <a href="#about" data-rb-event-key="#about">About</a>
+            <a href="#skills" data-rb-event-key="#skills">Skills</a>
+            <a href="#projects" data-rb-event-key="#projects">Projects</a>  
+                {/* <ul>
                     <li>
                         <a href="#about" data-rb-event-key="#about">About</a>
                     </li>
@@ -21,10 +24,10 @@ const Header = (props) =>{
                     <li>
                         <a href="#projects" data-rb-event-key="#projects">Projects</a>                       
                     </li>
-                    {/* <li>
+                    <li>
                         <a href="#contact" data-rb-event-key="#contact">Contact</a>                        
-                    </li> */}
-                </ul>
+                    </li>
+                </ul> */}
             </Navbar.Collapse>
         </Navbar>
         // <header>
