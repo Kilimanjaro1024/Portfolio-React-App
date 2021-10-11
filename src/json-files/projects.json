@@ -1,0 +1,27 @@
+[{
+    "id": 1,
+    "name": "WoW BIS Maker",
+    "description" : "This app was developed with React and Scss to allow the users to search through Blizzard's World of Warcraft api to construct a list of Items that are best for their character and have an easy way to keep track of those items. On this project I used React Usestates in Javascript to update and track the items that users add to their lists. ",
+    "github" : "https://github.com/Kilimanjaro1024/Project2",
+    "img": "https://i.imgur.com/IbEFVaF.png",
+    "live": "https://wowbismaker.netlify.app/"
+},
+
+{
+    "id": 2,
+    "name": "Gimme.it",
+    "description" : "Gimme.it is a pseudo ecommerce app I helped develop with several associates. My responsibility on the project was to create a full CRUD backend server using express. Along with making the api for Items that donors can list I also developed a login and registration system with JWT to encrypt passwords.",
+    "github" : "https://github.com/kndshein/GimmeIt-Backend",
+    "img": "https://i.imgur.com/RXoKBQZ.png",
+    "live": "https://giveaway-kck.netlify.app/"
+},
+
+{
+    "id": 3,
+    "name": "My Way or the Highway",
+    "description" : "My Way or the Highway is a blog site created using a Ruby on Rails backend server and a React-App frontend. Users can create an account and post about any topic they wish and argue their case as to why their way of doing things is better or more efficient. While developing this app I used JWT and Bcrypt to create my login server, and Styled Components for styling the elements on the pages.",
+    "github" : "https://github.com/Kilimanjaro1024/mwothw-reactapp",
+    "img": "https://i.imgur.com/PLAFqmE.png",
+    "live": "https://mywayorthehighway.netlify.app/"
+}
+]

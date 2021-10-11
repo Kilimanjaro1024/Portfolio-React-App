@@ -2,29 +2,31 @@
 import './App.css'
 import React, { useEffect, useState } from 'react'
 import Page from './components/Page'
-import axios from "axios";
+// import axios from "axios";
+
 
 function App() {
-  const URL= "https://claytons-projects.herokuapp.com/"
+  const URL= "http://localhost:3001/"
+  // "https://claytons-projects.herokuapp.com/"
   console.log(URL)
 
-  const [projects, setProjects] = useState([])
+  // const [projects, setProjects] = useState([])
 
-  const getProjects = (project) => {
-    console.log("hello")
-    axios.get(URL + "projects").then((projects) => {
-      setProjects(projects)
-    })
-  }
+  // const getProjects = (project) => {
+  //   console.log("hello")
+  //   axios.get(URL + "projects").then((projects) => {
+  //     setProjects(projects)
+  //   })
+  // }
 
   useEffect(() => {
-    getProjects()
+    // getProjects()
     
   }, [])
 
   return (
     <div className="App">
-      <Page projects={projects} />
+      <Page  />
     </div>
   );
 }
